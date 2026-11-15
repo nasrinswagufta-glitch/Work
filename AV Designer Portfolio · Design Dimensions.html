@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AV Designer Portfolio · Design Dimensions</title>
+<style>
+:root{--bg:#faf8f4;--fg:#1c1b19;--muted:#6b675f;--card:#fff;--line:#e4dfd5;--accent:#c2410c;--tag:#fdeede;--tagfg:#9a3412;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141311;--fg:#f2efe8;--muted:#a09a8e;--card:#1e1d1a;--line:#33312c;--accent:#fb923c;--tag:#3a2415;--tagfg:#fdba74}}
+:root[data-theme="dark"]{--bg:#141311;--fg:#f2efe8;--muted:#a09a8e;--card:#1e1d1a;--line:#33312c;--accent:#fb923c;--tag:#3a2415;--tagfg:#fdba74}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header{padding:72px 0 40px;border-bottom:1px solid var(--line)}
+.eyebrow{color:var(--accent);font-weight:600;letter-spacing:.12em;text-transform:uppercase;font-size:13px}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(36px,7vw,64px);line-height:1.05;margin:12px 0 16px}
+header p{max-width:620px;color:var(--muted);font-size:18px;margin:0}
+.stats{display:flex;gap:32px;flex-wrap:wrap;margin-top:32px}
+.stats b{display:block;font-family:Georgia,serif;font-size:36px;color:var(--accent)}
+.stats span{color:var(--muted);font-size:14px}
+.skills{display:flex;gap:8px;flex-wrap:wrap;margin-top:28px}
+.pill{background:var(--tag);color:var(--tagfg);padding:4px 12px;border-radius:99px;font-size:13px;font-weight:600}
+section{padding:48px 0 8px}
+h2{font-family:Georgia,serif;font-size:30px;margin:0}
+.sub{color:var(--muted);margin:4px 0 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+a.card{display:flex;flex-direction:column;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;color:inherit;text-decoration:none;transition:transform .15s,border-color .15s}
+a.card:hover{transform:translateY(-3px);border-color:var(--accent)}
+.n{font-family:Georgia,serif;font-size:28px;color:var(--accent);line-height:1}
+.role{font-weight:600}
+.go{margin-top:auto;color:var(--accent);font-size:14px;font-weight:600}
+footer{padding:56px 0 48px;color:var(--muted);font-size:14px;border-top:1px solid var(--line);margin-top:56px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<div class="eyebrow">Portfolio · Design Dimensions</div>
+<h1>AV Designer — Audio &amp; Video for Brand Reels</h1>
+<p>Sound design, video editing and shoots for food and skincare brands, crafted to make short-form content feel rich and scroll-stopping.</p>
+<div class="stats">
+<div><b>23</b><span>Reels delivered</span></div>
+<div><b>3</b><span>Brands</span></div>
+<div><b>2</b><span>Industries: Food &amp; Skincare</span></div>
+</div>
+<div class="skills"><span class="pill">Audio Design</span><span class="pill">Video Editing</span><span class="pill">Reel Shooting</span></div>
+</header>
+<main id="main"></main>
+<footer>Work created at Design Dimensions as an AV Designer. Tap any card to watch the reel on Instagram.</footer>
+</div>
+<script>
+var B="https://www.instagram.com/reel/";
+var clients=[
+{name:"The Bikaneri Kitchen",desc:"Audio design for a food brand’s reel content.",items:[
+["DcdNfI4z4Ju/?dlrf=MWYxbXlqb2x4NHhqNw==","Audio Design"],
+["DdTGNSdTfs8/?rpxt=MTQzbHo4N2xxc3U3Ng==","Audio Design"],
+["DdeN-fZztwK/?srtk=cGVjcGh6c3F0NTZz","Audio Design"],
+["DdjVIg1zu-s/?dlrf=Zjk3ZzQxeXN5YWNn","Audio Design"],
+["DdqCRizzX4L/?rpxt=MTd2ZHJvYXg3YnNpYw==","Audio Design"],
+["Ddti4PLKIHA/?cplk=MTFteWdpaHY4Zmxyeg==","Audio Design"],
+["Dd9FVFoTv4r/?xtok=ZXlueWt4bHpsYmw0","Audio Design"],
+["DejqZ-6q5ZI/?vrfl=MXAxcmdtcjY0MXd5MQ==","Audio Design"],
+["Dewp19Kg1r5/?cplk=djg3djMwdjRxYXU=","Audio Design"],
+["DfFclgqq4j9/?vrfl=MTdqYm85NTV4aTc0Ng==","Reel"]]},
+{name:"The Kachori Story",desc:"Reel editing, shooting and audio/video edits for a snack brand.",items:[
+["DfKFbC4TEV0/?xtok=MXVvd3p0NWxwZG45MA==","Audio &amp; Video Edit"],
+["DfUtJS6TjIG/?rpxt=MWx6dXFhYnNseXZxMw=","Reel Edit &amp; Shoot"],
+["De9UIW5TbuB/?rpxt=MWE5enNhNDkweWNuaw==","Reel Edit &amp; Shoot"],
+["DerD0lmTrOt/?vrfl=MXRvbmF6djFqbXhibQ==","Reel Edit &amp; Shoot"],
+["DeRtXzJTIIU/?psln=MTNxbWc5M3Z1bzU3ag==","Reel Edit &amp; Shoot"],
+["DeJv6ltzWqe/?xtok=MWo3bnpuZ2NyMW14OQ==","Reel Edit &amp; Shoot"]]},
+{name:"Beyond Beyond Skincare",desc:"Audio design and video editing for a skincare brand.",items:[
+["DeyTyRpC7RH/?srtk=eWtwZTMwYXFkem0w","Audio Design"],
+["Dejy36FCJtF/?dlrf=bzYxdWdnZDlvbm91","Audio Design"],
+["DebqByfR33P/?xtok=dDdqcTlqY212anZo","Audio Design"],
+["DeLnUZjNZD_/?rpxt=MTh0M3ljbjZidWNkeg==","Audio Design"],
+["DctZUXeSuSb/?obrf=MTB3N3N1cnRvMHpydg==","Audio Design"],
+["DcjU2JTBm3P/?vrfl=dXllOWFhODdhZmE4","Audio Design"],
+["Db-vd0xTaVr/?cplk=MTFqYW5oa3F1a3Z1bg==","Audio Design &amp; Video Edit"]]}
+];
+var html="";
+clients.forEach(function(c){
+html+='<section><h2>'+c.name+'</h2><p class="sub">'+c.desc+' · '+c.items.length+' reels</p><div class="grid">';
+c.items.forEach(function(it,i){
+html+='<a class="card" href="'+B+it[0]+'" target="_blank" rel="noopener"><span class="n">'+String(i+1).padStart(2,"0")+'</span><span class="role">'+it[1]+'</span><span class="go">Watch reel →</span></a>';
+});
+html+='</div></section>';
+});
+document.getElementById("main").innerHTML=html;
+</script>
+</body>
+</html>
